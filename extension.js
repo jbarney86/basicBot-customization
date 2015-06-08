@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "BlazeBot 4.2.0t",
+        botName: "BlazeBot 4.2.0",
         language: "english",
         chatLink: "https://rawgit.com/masterjh/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -83,7 +83,7 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        skipPosition: 3,
+        skipPosition: 2,
         skipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
