@@ -1,7 +1,7 @@
 (function () {
     
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "masterjh";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -58,17 +58,17 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/masterjh/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        autowoot: true,
+        autowoot: false,
         smartSkip: true,
         cmdDeletion: true,
-        maximumAfk: 120,
+        maximumAfk: 180,
         afkRemoval: true,
-        maximumDc: 60,
-        bouncerPlus: true,
+        maximumDc: 30,
+        bouncerPlus: false,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
@@ -79,7 +79,7 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 8,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -101,8 +101,8 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
-        rulesLink: null,
+        opLink: "http://www.last.fm/user/r_trees",
+        rulesLink: "http://i.imgur.com/kHBa5wD.png",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
@@ -119,6 +119,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/masterjh/basicBot/master/basicBot.js", extend);
 
 }).call(this);
