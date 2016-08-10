@@ -56,11 +56,11 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "BlazeBot 4.2.0",
+        botName: "Alexander 1.0",
         language: "english",
-        chatLink: "https://rawgit.com/masterjh/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
+        startupVolume: 50, // 0-100
         startupEmoji: false, // true or false
         autowoot: false,
         smartSkip: true,
