@@ -59,10 +59,10 @@
         botName: "Alexander 1.0",
         language: "english",
         chatLink: "https://rawgit.com/yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
+        startupCap: 5, // 1-200
         startupVolume: 50, // 0-100
-        startupEmoji: false, // true or false
-        autowoot: false,
+        startupEmoji: true, // true or false
+        autowoot: true,
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 180,
@@ -79,7 +79,7 @@
         voteSkipLimit: 10,
         historySkip: false,
         timeGuard: true,
-        maximumSongLength: 8,
+        maximumSongLength: 12,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -95,14 +95,14 @@
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Always looking for new music!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: "http://www.last.fm/user/r_trees",
-        rulesLink: "http://i.imgur.com/kHBa5wD.png",
+        opLink: "http://www.remymarathe.guildwork.com",
+        rulesLink: "Don't be shitty",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
